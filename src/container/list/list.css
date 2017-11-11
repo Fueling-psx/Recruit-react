@@ -1,0 +1,107 @@
+.top-search {
+	position: fixed;
+    top: 8px;
+    left: 16px;
+    z-index: 100;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: white;
+    height: 36px;
+}
+.tips {
+	width: 80px;
+    text-align: center;
+    padding: 20px 10px 0;
+    float: left;
+}
+.img-radius {
+	width: 60px;
+	border-radius: 60px;
+}
+.header-tips-content {
+	width: 400px;
+	margin: 0 auto;
+}
+.list-header {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #E5E5E5;
+	background: #F2F5F4;
+}
+.list-header-title {
+	text-align: center;
+    width: 80%;
+    line-height: 50px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.list-whitespace {
+	width: 100%;
+	height: 10px;
+	border: 1px solid #E5E5E5;
+	background: #F2F5F4;
+}
+
+.imgStyle img {
+	width: 50px;
+	border-radius: 25px;
+}
+.list-content {
+	padding: 10px 0 20px 14px;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+.tips-info-left {
+	float: left;
+	width: 80%;
+}
+.tips-info-right {
+	float: left;
+	width: 20%;
+}
+.tips-user-left {
+	float: left;
+	width: 54px;
+	height: 54px;
+}
+.tips-user-left img {
+	width: 54px;
+	height: 54px;
+}
+.tips-user-right {
+	float: left;
+	width: 80%;
+	padding-left: 10px;
+}
+.tips-margin {
+	margin: 6px;
+}
+
+.tips-info-title {
+	font-size: 17px;
+	font-weight: bold;
+}
+.tips-info-salary {
+	font-size: 17px;
+	color: #ff734b;
+}
+.tips-info-date {
+	font-size: 15px;
+	color: #929292;
+}
+.tips-info-ask {
+	font-size: 15px;
+}
+

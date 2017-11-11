@@ -1,0 +1,15 @@
+html, body {
+	
+}
+.logo-container {
+	margin: 40px 0;
+    font-size: 24px;
+    padding: 0 15px;
+    line-height: 60px;
+}
+.logo-container img {
+	border-radius: 30px;
+	float: right;
+	width: 60px;
+	height: 60px;
+}
