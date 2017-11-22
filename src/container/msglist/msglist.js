@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import {List, NavBar} from 'antd-mobile'
+import {List, NavBar, WingBlank} from 'antd-mobile'
 
 @connect(
 	state=>state
@@ -33,11 +33,11 @@ class MsgList extends React.Component {
 			return last_b - last_a;
 		})	
 
-		//console.log(chatlist);
+		// console.log(chatlist);
 		return (
 			<div>
 				<NavBar mode="dark">消息列表</NavBar>
-				{chatlist.map(v=>{
+				{ chatlist[0] ? chatlist.map(v=>{
 					const lastItem = this.getLast(v)
 					const targetId = v[0].form==userid ? v[0].to : v[0].form						
 					const name = username[targetId] ? username[targetId].name : ''
@@ -59,7 +59,11 @@ class MsgList extends React.Component {
 							</List>
 						</div>
 					)	
-				})}
+				}) : 
+				<WingBlank>
+					<p>暂无消息，快去发消息吧</p>
+				</WingBlank>
+			}
 				
 			</div>
 			

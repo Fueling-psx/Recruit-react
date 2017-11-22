@@ -7,7 +7,6 @@ import {
 	WhiteSpace, 
 	Button
 } from 'antd-mobile'
-import AvatarSelector from '../../component/useravater/avatar-selector'
 import LogoInfo from '../../component/logoinfo/logoinfo.js'
 import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom'

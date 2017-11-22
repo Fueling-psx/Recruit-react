@@ -1,6 +1,5 @@
 import React from 'react'
 import { Result, List, WhiteSpace, Modal } from 'antd-mobile'
-import AvatarSelector from '../useravater/avatar-selector'
 import logoImg from './000.png'
 import './logo.css'
 

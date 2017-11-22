@@ -42,6 +42,7 @@ class AuthList extends React.Component {
 		return (
 			<div>
 				<SearchBar className="top-search" placeholder="搜索职位/公司" maxLength={16} />
+				
 				<Carousel autopaly infinite>
 					<img src={carouselImg_0} />
 					<img src={carouselImg_1} />
@@ -92,7 +93,7 @@ class AuthList extends React.Component {
 								{v.type=='company' ?
 									<div className="tips-user-right">
 										<p className="tips-margin">{v.companyName}</p>
-										<p className="tips-margin">{v.desc}|{v.details}</p>
+										<p className="tips-margin tips-second">{v.desc}|{v.details}</p>
 									</div> :
 									<div className="tips-user-right">
 										<p className="tips-margin">姓名：{v.user}</p>

@@ -10,23 +10,27 @@
     height: 36px;
 }
 .tips {
-	width: 80px;
+	width: 25%;
+    box-sizing: border-box;
     text-align: center;
-    padding: 20px 10px 0;
+    padding: 20px 2.25%;
     float: left;
 }
 .img-radius {
-	width: 60px;
+	width: 100%;
 	border-radius: 60px;
 }
 .header-tips-content {
-	width: 400px;
-	margin: 0 auto;
+	box-sizing: border-box;
+    width: 100%;
+    padding: 0 5%;
+    margin: 0 auto;
 }
 .list-header {
 	width: 100%;
 	height: 50px;
-	border: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
 	background: #F2F5F4;
 }
 .list-header-title {
@@ -40,7 +44,8 @@
 .list-whitespace {
 	width: 100%;
 	height: 10px;
-	border: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
 	background: #F2F5F4;
 }
 
@@ -49,7 +54,7 @@
 	border-radius: 25px;
 }
 .list-content {
-	padding: 10px 0 20px 14px;
+	padding: 10px 14px 14px;
 }
 .clearfix:before,
 .clearfix:after {
@@ -65,30 +70,33 @@
 
 .tips-info-left {
 	float: left;
-	width: 80%;
 }
 .tips-info-right {
-	float: left;
-	width: 20%;
+	float: right;
 }
 .tips-user-left {
 	float: left;
-	width: 54px;
-	height: 54px;
+	width: 18%;
+    height: 18%;
 }
 .tips-user-left img {
-	width: 54px;
-	height: 54px;
+	float: left;
+    width: 100%;
+    height: 100%;
 }
 .tips-user-right {
-	float: left;
-	width: 80%;
-	padding-left: 10px;
+	float: right;
+    width: 78%;
+    padding-left: 4%;
 }
 .tips-margin {
-	margin: 6px;
+	margin: 0;
 }
-
+.tips-second {
+	padding-top: 6px;
+    font-size: 13px;
+    color: #929292;
+}
 .tips-info-title {
 	font-size: 17px;
 	font-weight: bold;
