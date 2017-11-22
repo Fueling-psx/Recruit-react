@@ -57,7 +57,7 @@ class Chat extends React.Component {
 		return (
 			<div id="chat-page">
 				<NavBar 
-					mode="light"
+					mode="dark"
 					icon={<Icon type="left" />}
 					onLeftClick={() => {
 						this.props.history.goBack()
